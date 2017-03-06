@@ -11,6 +11,7 @@ import UIKit
 
 class importanceLabelView: UIView{
     //this is a change
+    //this is a second change
     
     static let rotateVertically: CGAffineTransform = {
         let trans = CGAffineTransform()
