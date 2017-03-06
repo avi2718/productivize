@@ -21,21 +21,29 @@ class NewTaskViewController: UIViewController {
     override func viewDidLoad() {
         print("hi)")
         self.navigationItem.title = "New Task"
+        
+        let datePicker  : UIDatePicker = UIDatePicker()
+        datePicker.datePickerMode = UIDatePickerMode.date
+        dateField.inputView = datePicker
+        
+        let catPicker = UIPickerView()
+        categoryField.inputView = catPicker
+        
+        let lengthPicker = UIDatePicker()
+        lengthPicker.datePickerMode = UIDatePickerMode.countDownTimer
+        lengthField.inputView = lengthPicker
+        
+        let minChunkPicker = UIDatePicker()
+        minChunkPicker.datePickerMode = UIDatePickerMode.countDownTimer
+        minChunkField.inputView = minChunkPicker
     }
     
-    /* @IBAction func dateTapped(_ sender: UITextField) {
-        //code for what to do when date field is tapped
-        let datePickerView  : UIDatePicker = UIDatePicker()
-        datePickerView.datePickerMode = UIDatePickerMode.date
-        sender.inputView = datePickerView
-        //datePickerView.addTarget(self, action: Selector(("handleDatePicker:")), for: UIControlEvents.valueChanged)
-    }
-    
-    func handleDatePicker(sender: UIDatePicker) {
+    @IBAction func dateTapped(_ sender: UITextField) {
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "dd MMM yyyy"
-        dateField.text = dateFormatter.string(from: sender.date)
+        //dateField.text = dateFormatter.string(from: sender.date)
     }
+    
     
     @IBAction func lengthTapped(_ sender: UITextField) {
         let timePickerView  : UIDatePicker = UIDatePicker()
@@ -57,5 +65,5 @@ class NewTaskViewController: UIViewController {
 
     @IBAction func cancelAction(_ sender: UIBarButtonItem) {
         let _ = self.navigationController?.popViewController(animated: true)
-    } */
+    }
 }
