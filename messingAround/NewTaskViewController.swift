@@ -19,15 +19,16 @@ class NewTaskViewController: UIViewController {
     @IBOutlet var remainderField: UITextField!
     
     override func viewDidLoad() {
+        print("hi)")
         self.navigationItem.title = "New Task"
     }
     
-    @IBAction func dateTapped(_ sender: UITextField) {
+    /* @IBAction func dateTapped(_ sender: UITextField) {
         //code for what to do when date field is tapped
         let datePickerView  : UIDatePicker = UIDatePicker()
         datePickerView.datePickerMode = UIDatePickerMode.date
         sender.inputView = datePickerView
-        datePickerView.addTarget(self, action: Selector(("handleDatePicker:")), for: UIControlEvents.valueChanged)
+        //datePickerView.addTarget(self, action: Selector(("handleDatePicker:")), for: UIControlEvents.valueChanged)
     }
     
     func handleDatePicker(sender: UIDatePicker) {
@@ -40,7 +41,7 @@ class NewTaskViewController: UIViewController {
         let timePickerView  : UIDatePicker = UIDatePicker()
         timePickerView.datePickerMode = UIDatePickerMode.countDownTimer
         sender.inputView = timePickerView
-        timePickerView.addTarget(self, action: Selector(("handleTimePicker:")), for: UIControlEvents.valueChanged)
+        //timePickerView.addTarget(self, action: Selector(("handleTimePicker:")), for: UIControlEvents.valueChanged)
     }
     
     func handleTimePicker(sender: UIDatePicker) {
@@ -50,7 +51,7 @@ class NewTaskViewController: UIViewController {
     }
     
     
-    /* @IBAction func newTaskAction(_ sender: UIBarButtonItem) {
+    @IBAction func newTaskAction(_ sender: UIBarButtonItem) {
         let _ = self.navigationController?.popViewController(animated: true)
     }
 

@@ -38,7 +38,7 @@
                     <navigationItem key="navigationItem" title="My Grid" id="Xlc-Og-Ran">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="VZt-mp-4Jd">
                             <connections>
-                                <segue destination="obk-4f-zxh" kind="show" id="DuA-tF-egQ"/>
+                                <segue destination="obk-4f-zxh" kind="show" id="ikQ-8P-voK"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
