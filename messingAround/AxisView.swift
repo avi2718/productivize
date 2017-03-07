@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreGraphics
 
 class AxisView: UIView {
     
@@ -26,16 +27,30 @@ class AxisView: UIView {
         ]
         urgentString.draw(in: CGRect(x: bounds.width/2 - 20, y: bounds.height - 30, width: 80, height: 30), withAttributes: attributes as? [String : Any])
         
+        let importanceStringLabel = CATextLayer()
+        let importanceString = "IMPORTANCE"
+        //let importanceString = NSMutableAttributedString(string: "IMPORTANCE")
+        //importanceString.addAttribute(NSKernAttributeName, value: 1.3, range: NSRange(location: 0, length: importanceString.length))
+        importanceStringLabel.string = importanceString
+        importanceStringLabel.font = UIFont(name: "SFUIDisplay-Semibold", size: 15)
+        importanceStringLabel.foregroundColor = UIColor.black.cgColor
+        //importanceStringLabel.anchorPoint = CGPoint(x: 20, y: bounds.height/2)
+        //importanceStringLabel.transform = CATransform3DMakeRotation(CGFloat.pi/2, 0, 0, 0)
+        importanceStringLabel.draw(in: UIGraphicsGetCurrentContext()!)
+        //UIGraphicsGetCurrentContext()!.
+            //CGAffineTransform(rotationAngle: CGFloat.pi/2)
         
         /* let importanceString: NSString = "IMPORTANT"
         let fieldColor2: UIColor = UIColor.black
         let fieldFont2 = UIFont(name: "SFUIDisplay-Semibold", size: 15)
-        let attributes2: NSDictionary = [
+        let attributes2 = [
             NSForegroundColorAttributeName: fieldColor2,
             NSFontAttributeName: fieldFont2!,
             NSKernAttributeName: 1.3
-        ]
-        importanceString.draw(at: CGPoint(x: 20, y: bounds.height/2), withAttributes: attributes2 as? [String: Any]) */
+        ] as [String: Any]
+        importanceString.draw(at: CGPoint(x: 20, y: bounds.height/2), withAttributes: attributes2)
+        let context = UIGraphicsGetCurrentContext()
+        context.anchorPoint = CGPoint(x: 20, y: bounds.height/2) */
     }
     
     func drawAxes(_ rect: CGRect) {
