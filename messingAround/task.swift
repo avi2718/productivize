@@ -9,17 +9,20 @@
 import Foundation
 
 struct Task: CustomStringConvertible, Hashable {
+    static var allTasks: [Task] = []
     var name: String
+    var dueDate: Date
     var category: String
-    var length: Int //use timePicker
-    var minChunk: Int //use timePicker
+    var length: TimeInterval
+    var minChunk: TimeInterval
     var importance: Int
     var urgency: Int
     
-    init(xCoor: Int, yCoor: Int, name: String, category: String, length: Int, minChunk: Int) {
+    init(xCoor: Int, yCoor: Int, name: String, dueDate: Date, category: String, length: TimeInterval, minChunk: TimeInterval) {
         importance = xCoor
         urgency = yCoor
         self.name = name
+        self.dueDate = dueDate
         self.category = category
         self.length = length
         self.minChunk = minChunk

@@ -73,12 +73,11 @@
 				F46FA1A71E67011500503493 /* Models */,
 				F43A8E391E0B337F0065B6D0 /* AppDelegate.swift */,
 				F43A8E3D1E0B337F0065B6D0 /* Main.storyboard */,
-				F434B05F1E4EE36200475B7E /* importanceLabelView.swift */,
-				F43A8E4B1E0B341C0065B6D0 /* task.swift */,
 				F46FA1A21E66FF7200503493 /* list.png */,
 				F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */,
 				F43A8E421E0B337F0065B6D0 /* LaunchScreen.storyboard */,
 				F43A8E451E0B337F0065B6D0 /* Info.plist */,
+				F43A8E401E0B337F0065B6D0 /* Assets.xcassets */,
 			);
 			path = messingAround;
 			sourceTree = "<group>";
@@ -86,7 +85,7 @@
 		F46FA1A71E67011500503493 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F43A8E401E0B337F0065B6D0 /* Assets.xcassets */,
+				F43A8E4B1E0B341C0065B6D0 /* task.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -94,6 +93,7 @@
 		F46FA1A81E67011A00503493 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F434B05F1E4EE36200475B7E /* importanceLabelView.swift */,
 				F418A5351E19B8DE00FA8B98 /* AxisView.swift */,
 			);
 			name = Views;
