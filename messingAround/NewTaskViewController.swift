@@ -25,6 +25,7 @@ class NewTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var category: String = " "
     var taskLength: TimeInterval = 0.0
     var minChunk: TimeInterval = 0.0
+    var axis = AxisView()
     
     override func viewDidLoad() {
         print("hi)")
@@ -105,9 +106,11 @@ class NewTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         let myTask = Task(xCoor: 50, yCoor: 50, name: nameField.text!, dueDate: dueDate, category: category, length: taskLength, minChunk: minChunk)
         print(myTask.name)
         Task.allTasks.append(myTask)
+        //axis.tasks.append(myTask)
         for task in Task.allTasks {
             print(task.name)
         }
+        axis.setNeedsDisplay()
     }
 
 }

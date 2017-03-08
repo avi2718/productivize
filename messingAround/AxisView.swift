@@ -16,6 +16,7 @@ class AxisView: UIView {
     override func draw(_ rect: CGRect) {
         drawAxes(rect)
         drawTriangles(rect)
+        drawTasks(rect)
         
         let urgentString: NSString = "URGENT"
         let fieldColor: UIColor = UIColor.black
@@ -51,6 +52,27 @@ class AxisView: UIView {
         importanceString.draw(at: CGPoint(x: 20, y: bounds.height/2), withAttributes: attributes2)
         let context = UIGraphicsGetCurrentContext()
         context.anchorPoint = CGPoint(x: 20, y: bounds.height/2) */
+    }
+    
+    func drawTasks(_ rect: CGRect) {
+        //redraws tasks when u return to axis view
+        //if new task (how to check for that..?)
+        //-->drop in the middle 
+        //user drags to desired spot
+        tasks = Task.allTasks
+        if tasks != nil {
+           for task in tasks {
+                let taskString: NSString = "\(task.name)" as NSString
+                let fieldColor: UIColor = UIColor.red
+                let fieldFont = UIFont(name: "SFUIDisplay-Semibold", size: 12)
+                let attributes: NSDictionary = [
+                    NSForegroundColorAttributeName: fieldColor,
+                    NSFontAttributeName: fieldFont!,
+                    NSKernAttributeName: 1.3
+                ]
+                taskString.draw(in: CGRect(x: bounds.width/2, y: bounds.height / 2, width: 80, height: 30), withAttributes: attributes as? [String : Any])
+            }
+        }
     }
     
     func drawAxes(_ rect: CGRect) {
