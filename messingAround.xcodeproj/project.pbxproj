@@ -10,6 +10,7 @@
 		E04E80C11E6F367500B757E7 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04E80C01E6F367500B757E7 /* profile.png */; };
 		E04E80C51E6F36FA00B757E7 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E04E80C41E6F36FA00B757E7 /* grid.png */; };
 		F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418A5351E19B8DE00FA8B98 /* AxisView.swift */; };
+		F41C15D21E76FB6D0071927A /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15D11E76FB6D0071927A /* redCircle.png */; };
 		F434B05E1E4E305A00475B7E /* SFDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */; };
 		F434B0601E4EE36200475B7E /* importanceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434B05F1E4EE36200475B7E /* importanceLabelView.swift */; };
 		F43A8E3A1E0B337F0065B6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E391E0B337F0065B6D0 /* AppDelegate.swift */; };
@@ -27,6 +28,7 @@
 		E04E80C01E6F367500B757E7 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../profile.png; sourceTree = "<group>"; };
 		E04E80C41E6F36FA00B757E7 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = ../../grid.png; sourceTree = "<group>"; };
 		F418A5351E19B8DE00FA8B98 /* AxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
+		F41C15D11E76FB6D0071927A /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
 		F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Semibold.otf"; sourceTree = "<group>"; };
 		F434B05F1E4EE36200475B7E /* importanceLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = importanceLabelView.swift; sourceTree = "<group>"; };
 		F43A8E361E0B337F0065B6D0 /* messingAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messingAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,6 +79,7 @@
 				F46FA1A71E67011500503493 /* Models */,
 				F43A8E391E0B337F0065B6D0 /* AppDelegate.swift */,
 				F43A8E3D1E0B337F0065B6D0 /* Main.storyboard */,
+				F41C15D11E76FB6D0071927A /* redCircle.png */,
 				F46FA1A21E66FF7200503493 /* list.png */,
 				E04E80C41E6F36FA00B757E7 /* grid.png */,
 				E04E80C01E6F367500B757E7 /* profile.png */,
@@ -179,6 +182,7 @@
 				F434B05E1E4E305A00475B7E /* SFDisplay-Semibold.otf in Resources */,
 				F43A8E411E0B337F0065B6D0 /* Assets.xcassets in Resources */,
 				F43A8E3F1E0B337F0065B6D0 /* Main.storyboard in Resources */,
+				F41C15D21E76FB6D0071927A /* redCircle.png in Resources */,
 				E04E80C51E6F36FA00B757E7 /* grid.png in Resources */,
 				F46FA1A31E66FF7200503493 /* list.png in Resources */,
 			);

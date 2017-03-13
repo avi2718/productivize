@@ -62,15 +62,9 @@ class AxisView: UIView {
         tasks = Task.allTasks
         if tasks != nil {
            for task in tasks {
-                let taskString: NSString = "\(task.name)" as NSString
-                let fieldColor: UIColor = UIColor.red
-                let fieldFont = UIFont(name: "SFUIDisplay-Semibold", size: 12)
-                let attributes: NSDictionary = [
-                    NSForegroundColorAttributeName: fieldColor,
-                    NSFontAttributeName: fieldFont!,
-                    NSKernAttributeName: 1.3
-                ]
-                taskString.draw(in: CGRect(x: bounds.width/2, y: bounds.height / 2, width: 80, height: 30), withAttributes: attributes as? [String : Any])
+            let imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+            imageView.frame = CGRect(x: 5, y: 5, width: 15, height: 15)
+            self.addSubview(imageView)
             }
         }
     }
