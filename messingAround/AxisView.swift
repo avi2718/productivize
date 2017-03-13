@@ -62,9 +62,8 @@ class AxisView: UIView {
         tasks = Task.allTasks
         if tasks != nil {
            for task in tasks {
-            let imageView = UIImageView(image: UIImage(named: "redCircle.png"))
-            imageView.frame = CGRect(x: 5, y: 5, width: 15, height: 15)
-            self.addSubview(imageView)
+            let taskView = TaskView(task)
+            taskView.draw(self)
             }
         }
     }
