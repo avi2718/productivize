@@ -14,7 +14,11 @@ class TaskView{
     
     init(_ task: Task) {
         self.task = task
-        imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+        switch task.category {
+            case "Work": imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+            case "Wellness": imageView = UIImageView(image: UIImage(named: "blueCircle.png"))
+        default: imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+        }
     }
     
     func draw(_ parentView: UIView) {

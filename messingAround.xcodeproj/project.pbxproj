@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E04E80C11E6F367500B757E7 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E04E80C01E6F367500B757E7 /* profile.png */; };
-		E04E80C51E6F36FA00B757E7 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = E04E80C41E6F36FA00B757E7 /* grid.png */; };
 		F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418A5351E19B8DE00FA8B98 /* AxisView.swift */; };
 		F41C15D21E76FB6D0071927A /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15D11E76FB6D0071927A /* redCircle.png */; };
 		F41C15D41E76FF3C0071927A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C15D31E76FF3C0071927A /* TaskView.swift */; };
+		F41C15D61E770B330071927A /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15D51E770B330071927A /* grid.png */; };
+		F41C15D81E770B3A0071927A /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15D71E770B3A0071927A /* profile.png */; };
+		F41C15DD1E772FD80071927A /* blueCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15DC1E772FD80071927A /* blueCircle.png */; };
 		F434B05E1E4E305A00475B7E /* SFDisplay-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */; };
 		F434B0601E4EE36200475B7E /* importanceLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F434B05F1E4EE36200475B7E /* importanceLabelView.swift */; };
 		F43A8E3A1E0B337F0065B6D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E391E0B337F0065B6D0 /* AppDelegate.swift */; };
 		F43A8E3C1E0B337F0065B6D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E3B1E0B337F0065B6D0 /* ViewController.swift */; };
 		F43A8E3F1E0B337F0065B6D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A8E3D1E0B337F0065B6D0 /* Main.storyboard */; };
 		F43A8E411E0B337F0065B6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43A8E401E0B337F0065B6D0 /* Assets.xcassets */; };
-		F43A8E441E0B337F0065B6D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F43A8E421E0B337F0065B6D0 /* LaunchScreen.storyboard */; };
 		F43A8E4C1E0B341C0065B6D0 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E4B1E0B341C0065B6D0 /* task.swift */; };
 		F43A8E501E0B3AF90065B6D0 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E4F1E0B3AF90065B6D0 /* GridViewController.swift */; };
 		F46FA1A31E66FF7200503493 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = F46FA1A21E66FF7200503493 /* list.png */; };
@@ -26,11 +26,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E04E80C01E6F367500B757E7 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profile.png; path = ../../profile.png; sourceTree = "<group>"; };
-		E04E80C41E6F36FA00B757E7 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = ../../grid.png; sourceTree = "<group>"; };
 		F418A5351E19B8DE00FA8B98 /* AxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
 		F41C15D11E76FB6D0071927A /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
 		F41C15D31E76FF3C0071927A /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		F41C15D51E770B330071927A /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grid.png; sourceTree = "<group>"; };
+		F41C15D71E770B3A0071927A /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		F41C15DC1E772FD80071927A /* blueCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueCircle.png; sourceTree = "<group>"; };
 		F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFDisplay-Semibold.otf"; sourceTree = "<group>"; };
 		F434B05F1E4EE36200475B7E /* importanceLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = importanceLabelView.swift; sourceTree = "<group>"; };
 		F43A8E361E0B337F0065B6D0 /* messingAround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = messingAround.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,7 +39,6 @@
 		F43A8E3B1E0B337F0065B6D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F43A8E3E1E0B337F0065B6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F43A8E401E0B337F0065B6D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F43A8E431E0B337F0065B6D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F43A8E451E0B337F0065B6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43A8E4B1E0B341C0065B6D0 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		F43A8E4F1E0B3AF90065B6D0 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridViewController.swift; path = ../GridViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +57,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F41C15D91E770BD30071927A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F41C15DC1E772FD80071927A /* blueCircle.png */,
+				F46FA1A21E66FF7200503493 /* list.png */,
+				F41C15D51E770B330071927A /* grid.png */,
+				F41C15D71E770B3A0071927A /* profile.png */,
+				F41C15D11E76FB6D0071927A /* redCircle.png */,
+				F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */,
+				F43A8E401E0B337F0065B6D0 /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		F43A8E2D1E0B337F0065B6D0 = {
 			isa = PBXGroup;
 			children = (
@@ -76,19 +90,13 @@
 		F43A8E381E0B337F0065B6D0 /* messingAround */ = {
 			isa = PBXGroup;
 			children = (
+				F41C15D91E770BD30071927A /* Assets */,
 				F46FA1A91E67011F00503493 /* Controllers */,
 				F46FA1A81E67011A00503493 /* Views */,
 				F46FA1A71E67011500503493 /* Models */,
 				F43A8E391E0B337F0065B6D0 /* AppDelegate.swift */,
 				F43A8E3D1E0B337F0065B6D0 /* Main.storyboard */,
-				F41C15D11E76FB6D0071927A /* redCircle.png */,
-				F46FA1A21E66FF7200503493 /* list.png */,
-				E04E80C41E6F36FA00B757E7 /* grid.png */,
-				E04E80C01E6F367500B757E7 /* profile.png */,
-				F434B05D1E4E305A00475B7E /* SFDisplay-Semibold.otf */,
-				F43A8E421E0B337F0065B6D0 /* LaunchScreen.storyboard */,
 				F43A8E451E0B337F0065B6D0 /* Info.plist */,
-				F43A8E401E0B337F0065B6D0 /* Assets.xcassets */,
 			);
 			path = messingAround;
 			sourceTree = "<group>";
@@ -180,13 +188,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F43A8E441E0B337F0065B6D0 /* LaunchScreen.storyboard in Resources */,
-				E04E80C11E6F367500B757E7 /* profile.png in Resources */,
+				F41C15D61E770B330071927A /* grid.png in Resources */,
+				F41C15D81E770B3A0071927A /* profile.png in Resources */,
 				F434B05E1E4E305A00475B7E /* SFDisplay-Semibold.otf in Resources */,
+				F41C15DD1E772FD80071927A /* blueCircle.png in Resources */,
 				F43A8E411E0B337F0065B6D0 /* Assets.xcassets in Resources */,
 				F43A8E3F1E0B337F0065B6D0 /* Main.storyboard in Resources */,
 				F41C15D21E76FB6D0071927A /* redCircle.png in Resources */,
-				E04E80C51E6F36FA00B757E7 /* grid.png in Resources */,
 				F46FA1A31E66FF7200503493 /* list.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,14 +226,6 @@
 				F43A8E3E1E0B337F0065B6D0 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F43A8E421E0B337F0065B6D0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F43A8E431E0B337F0065B6D0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
