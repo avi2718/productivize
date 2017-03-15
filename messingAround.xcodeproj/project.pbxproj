@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04E80C91E796C0300B757E7 /* taskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E80C81E796C0300B757E7 /* taskListViewController.swift */; };
+		E04E80CB1E796D2A00B757E7 /* taskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E80CA1E796D2A00B757E7 /* taskList.swift */; };
 		F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418A5351E19B8DE00FA8B98 /* AxisView.swift */; };
 		F41C15D21E76FB6D0071927A /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = F41C15D11E76FB6D0071927A /* redCircle.png */; };
 		F41C15D41E76FF3C0071927A /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41C15D31E76FF3C0071927A /* TaskView.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E04E80C81E796C0300B757E7 /* taskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taskListViewController.swift; sourceTree = "<group>"; };
+		E04E80CA1E796D2A00B757E7 /* taskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taskList.swift; sourceTree = "<group>"; };
 		F418A5351E19B8DE00FA8B98 /* AxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
 		F41C15D11E76FB6D0071927A /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
 		F41C15D31E76FF3C0071927A /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				F43A8E4B1E0B341C0065B6D0 /* task.swift */,
+				E04E80CA1E796D2A00B757E7 /* taskList.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			children = (
 				F43A8E4F1E0B3AF90065B6D0 /* GridViewController.swift */,
 				F43A8E3B1E0B337F0065B6D0 /* ViewController.swift */,
+				E04E80C81E796C0300B757E7 /* taskListViewController.swift */,
 				F46FA1A41E67010100503493 /* NewTaskViewController.swift */,
 			);
 			name = Controllers;
@@ -212,6 +218,8 @@
 				F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */,
 				F43A8E3C1E0B337F0065B6D0 /* ViewController.swift in Sources */,
 				F43A8E4C1E0B341C0065B6D0 /* task.swift in Sources */,
+				E04E80CB1E796D2A00B757E7 /* taskList.swift in Sources */,
+				E04E80C91E796C0300B757E7 /* taskListViewController.swift in Sources */,
 				F43A8E3A1E0B337F0065B6D0 /* AppDelegate.swift in Sources */,
 				F41C15D41E76FF3C0071927A /* TaskView.swift in Sources */,
 			);

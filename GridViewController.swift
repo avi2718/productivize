@@ -9,6 +9,7 @@
 import UIKit
 
 class GridViewController: UIViewController {
+    
     @IBAction func handlePan(_ gestureRecognizer: UIPanGestureRecognizer) {
         if gestureRecognizer.state == .began || gestureRecognizer.state == .changed {
             
