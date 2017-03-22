@@ -50,6 +50,8 @@ class GridViewController: UIViewController {
 
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+         
       //  let gestureRecognizer = UIPanGestureRecognizer(target: self, action: #selector(handlePan))
      //   self.someDraggableView.addGestureRecognizer(gestureRecognizer)
     }

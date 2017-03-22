@@ -62,7 +62,13 @@ class AxisView: UIView {
         tasks = Task.allTasks
         if tasks != nil {
            for task in tasks {
-            let taskView = TaskView(task)
+            var taskImage : UIImage
+                switch task.category {
+                case "Work": taskImage = UIImage(named: "redCircle.png")!
+                case "Wellness": taskImage = UIImage(named: "blueCircle.png")!
+                default: taskImage = UIImage(named: "redCircle.png")!
+                }
+            let taskView = TaskView(image: taskImage)
             taskView.draw(self)
             }
         }
