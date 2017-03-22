@@ -25,7 +25,9 @@ class TaskView : UIImageView {
         default: imageView = UIImageView(image: UIImage(named: "redCircle.png"))
         }*/
         
-       let hp = UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(_:)))
+        //#selector(self.handlePan(_:))
+        
+       let hp = UIPanGestureRecognizer(target: self, action: "handlePan")
         addGestureRecognizer(hp)
         
         self.isUserInteractionEnabled = true   //< w00000t!!!1
@@ -36,7 +38,7 @@ class TaskView : UIImageView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    @objc func handlePan(_ sender: UIPanGestureRecognizer!) {
+    func handlePan(_ sender: UIPanGestureRecognizer!) {
         print("is it even!")
         if sender.state == UIGestureRecognizerState.began {
             let locationInView = sender.location(in: superview)

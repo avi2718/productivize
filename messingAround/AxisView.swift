@@ -18,30 +18,34 @@ class AxisView: UIView {
         drawTriangles(rect)
         drawTasks(rect)
         
-        let urgentString: NSString = "URGENT"
+        let urgentString: NSString = "URGENCY"
         let fieldColor: UIColor = UIColor.black
         let fieldFont = UIFont(name: "SFUIDisplay-Semibold", size: 15)
-        let attributes: NSDictionary = [
+        let attributes: [String: Any] = [
             NSForegroundColorAttributeName: fieldColor,
             NSFontAttributeName: fieldFont!,
             NSKernAttributeName: 1.3
         ]
-        urgentString.draw(in: CGRect(x: bounds.width/2 - 20, y: bounds.height - 30, width: 80, height: 30), withAttributes: attributes as? [String : Any])
+        urgentString.draw(in: CGRect(x: bounds.width/2 - 20, y: bounds.height - 30, width: 80, height: 40), withAttributes: attributes)
         
-        let importanceStringLabel = CATextLayer()
+        let importanceLabel = importanceLabelView(frame: CGRect(x: 12, y: bounds.height/2 - 50, width: 20, height: 100))
+        importanceLabel.attributedText = NSMutableAttributedString(string: "IMPORTANCE", attributes: attributes)
+        
+        self.addSubview(importanceLabel)
+        /* let importanceStringLabel = CATextLayer()
         let importanceString = "IMPORTANCE"
-        //let importanceString = NSMutableAttributedString(string: "IMPORTANCE")
-        //importanceString.addAttribute(NSKernAttributeName, value: 1.3, range: NSRange(location: 0, length: importanceString.length))
+        let importanceString = NSMutableAttributedString(string: "IMPORTANCE")
+        importanceString.addAttribute(NSKernAttributeName, value: 1.3, range: NSRange(location: 0, length: importanceString.length))
         importanceStringLabel.string = importanceString
         importanceStringLabel.font = UIFont(name: "SFUIDisplay-Semibold", size: 15)
         importanceStringLabel.foregroundColor = UIColor.black.cgColor
-        //importanceStringLabel.anchorPoint = CGPoint(x: 20, y: bounds.height/2)
-        //importanceStringLabel.transform = CATransform3DMakeRotation(CGFloat.pi/2, 0, 0, 0)
+        importanceStringLabel.anchorPoint = CGPoint(x: 20, y: bounds.height/2)
+        importanceStringLabel.transform = CATransform3DMakeRotation(CGFloat.pi/2, 0, 0, 0)
         importanceStringLabel.draw(in: UIGraphicsGetCurrentContext()!)
-        //UIGraphicsGetCurrentContext()!.
+        UIGraphicsGetCurrentContext()!.
             //CGAffineTransform(rotationAngle: CGFloat.pi/2)
         
-        /* let importanceString: NSString = "IMPORTANT"
+        let importanceString: NSString = "IMPORTANT"
         let fieldColor2: UIColor = UIColor.black
         let fieldFont2 = UIFont(name: "SFUIDisplay-Semibold", size: 15)
         let attributes2 = [
