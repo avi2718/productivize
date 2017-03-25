@@ -59,6 +59,8 @@ class AxisView: UIView {
         //if new task (how to check for that..?)
         //-->drop in the middle 
         //user drags to desired spot
+        var urg : Float = 0.00
+        var imp = 0
         tasks = Task.allTasks
         if tasks != nil {
            for task in tasks {
@@ -68,7 +70,9 @@ class AxisView: UIView {
                 case "Wellness": taskImage = UIImage(named: "blueCircle.png")!
                 default: taskImage = UIImage(named: "redCircle.png")!
                 }
-            let taskView = TaskView(image: taskImage)
+            urg = task.makeUrgency()
+            imp = task.makeImportance()
+            let taskView = TaskView(image: taskImage, urgency: urg, importance: imp)
             taskView.draw(self)
             }
         }

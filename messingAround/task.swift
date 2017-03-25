@@ -8,19 +8,19 @@
 
 import Foundation
 
-struct Task: CustomStringConvertible, Hashable {
+struct Task: CustomStringConvertible{ //, Hashable {
     static var allTasks: [Task] = []
     var name: String
     var dueDate: Date
     var category: String
     var length: TimeInterval
     var minChunk: TimeInterval
-    var importance: Int
-    var urgency: Int
+    //var importance: Int
+    //var urgency: Int
     
-    init(xCoor: Int, yCoor: Int, name: String, dueDate: Date, category: String, length: TimeInterval, minChunk: TimeInterval) {
-        importance = xCoor
-        urgency = yCoor
+    init(name: String, dueDate: Date, category: String, length: TimeInterval, minChunk: TimeInterval) {
+        //importance = makeImportance()
+        //urgency = makeUrgency()
         self.name = name
         self.dueDate = dueDate
         self.category = category
@@ -28,8 +28,25 @@ struct Task: CustomStringConvertible, Hashable {
         self.minChunk = minChunk
     }
     
-    var hashValue: Int {
+    /*var hashValue: Int {
         return 100000 * urgency + 100 * importance
+    }*/
+    
+    func makeUrgency() -> Float {
+        let interval = Int(length)
+        let minutes : Float = Float((interval / 60) % 60)
+        let hours = Float(interval / 3600 * 100)
+        let total = hours + minutes
+        print("\(Float((interval / 60) % 60)) \(minutes)" )
+        return total
+    }
+    
+    func makeImportance() -> Int{
+        if category == "Wellness" {
+            return 2
+        } else {
+            return 1
+        }
     }
     
     var description: String {

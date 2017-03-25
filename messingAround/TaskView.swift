@@ -8,27 +8,32 @@
 
 import UIKit
 
-class TaskView : UIImageView {
+class TaskView { //: UIImageView {
     //var task: Task
     var imageView: UIImageView
+    var urgency: Float
+    var importance: Int
     
     var dragStartPositionRelativeToCenter : CGPoint?
     
-    override init(image: UIImage!) { // _ task : Task
+    init(image: UIImage!, urgency: Float, importance: Int) { // _ task : Task
         //self.task = task
         self.imageView = UIImageView(image: image)
-        
-        super.init(image: image)
+        self.urgency = urgency
+        self.importance = importance
+        //super.init(image: image, urgency: urgency, importance: importance)
         /*switch task.category {
         case "Work": imageView = UIImageView(image: UIImage(named: "redCircle.png"))
         case "Wellness": imageView = UIImageView(image: UIImage(named: "blueCircle.png"))
         default: imageView = UIImageView(image: UIImage(named: "redCircle.png"))
-        }*/
-        
-       let hp = UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(_:)))
-        addGestureRecognizer(hp)
-        
+        }
         self.isUserInteractionEnabled = true   //< w00000t!!!1
+        
+        let hp = UITapGestureRecognizer(target: self, action: "doubleTap")
+        hp.numberOfTapsRequired = 2
+        //UIPanGestureRecognizer(target: self, action: #selector(self.handlePan(_:)))
+        addGestureRecognizer(hp)*/
+        
         
     }
     
@@ -36,7 +41,11 @@ class TaskView : UIImageView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    @objc func handlePan(_ sender: UIPanGestureRecognizer!) {
+    func doubleTap(_ sender: UITapGestureRecognizer) {
+        print("PLEASE OH MY GODDDDDDD")
+    }
+    
+    /*func handlePan(_ sender: UIPanGestureRecognizer!) {
         print("is it even!")
         if sender.state == UIGestureRecognizerState.began {
             let locationInView = sender.location(in: superview)
@@ -57,10 +66,24 @@ class TaskView : UIImageView {
             self.center = CGPoint(x: locationInView.x - self.dragStartPositionRelativeToCenter!.x,
                                   y: locationInView.y - self.dragStartPositionRelativeToCenter!.y)
         }
+    }*/
+    
+    func makeX(_ parentView: UIView) -> Int{
+        //urgency
+        print("\(CGFloat(urgency))")
+        return Int(parentView.bounds.width / 2400 * CGFloat(urgency))
     }
     
+    func makeY(_ parentView: UIView) -> Int{
+        //importance
+        return Int(parentView.bounds.height / 3 * CGFloat(importance))
+    }
     func draw(_ parentView: UIView) {
-        imageView.frame = CGRect(x: 5, y: 5, width: 15, height: 15)
+        
+        let xCoor = makeX(parentView)
+        let yCoor = makeY(parentView)
+        print("\(xCoor) \(yCoor)")
+        imageView.frame = CGRect(x: xCoor, y: yCoor, width: 15, height: 15)
         parentView.addSubview(imageView)
     }
     
