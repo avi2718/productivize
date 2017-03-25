@@ -71,7 +71,7 @@ class TaskView { //: UIImageView {
     func makeX(_ parentView: UIView) -> Int{
         //urgency
         print("\(CGFloat(urgency))")
-        return Int(parentView.bounds.width / 2400 * CGFloat(urgency))
+        return Int(parentView.bounds.width / 2400 * CGFloat(urgency)) + 45
     }
     
     func makeY(_ parentView: UIView) -> Int{
