@@ -18,7 +18,7 @@ class AxisView: UIView {
         drawTriangles(rect)
         drawTasks(rect)
         
-        let urgentString: NSString = "URGENT"
+        let urgentString: NSString = "URGENCY"
         let fieldColor: UIColor = UIColor.black
         let fieldFont = UIFont(name: "SFUIDisplay-Semibold", size: 15)
         let attributes: NSDictionary = [
