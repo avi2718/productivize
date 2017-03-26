@@ -15,7 +15,7 @@ class TaskList {
     func createTask() -> Task {
         let t : TimeInterval = 0
         let c : TimeInterval = 0
-        let newTask = Task(xCoor: 50, yCoor: 50, name: "", dueDate: Date.distantFuture, category: "", length: t, minChunk: c)
+        let newTask = Task(name: "", dueDate: Date.distantFuture, category: "", length: t, minChunk: c)
         
         allTasks.append(newTask)
         
