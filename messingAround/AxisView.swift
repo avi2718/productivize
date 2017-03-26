@@ -28,16 +28,20 @@ class AxisView: UIView {
         ]
         urgentString.draw(in: CGRect(x: bounds.width/2 - 20, y: bounds.height - 30, width: 80, height: 30), withAttributes: attributes as? [String : Any])
         
-        let importanceStringLabel = CATextLayer()
-        let importanceString = "IMPORTANCE"
+        let importanceLabel = UILabelView(frame: CGRect(x: 12, y: bounds.height/2 - 50, width: 20, height: 100))
+        importanceLabel.attributedText = NSMutableAttributedString(string: "IMPORTANCE", attributes: attributes as! [String : Any])
+        
+        self.addSubview(importanceLabel)
+        //let importanceStringLabel = CATextLayer()
+        //let importanceString = "IMPORTANCE"
         //let importanceString = NSMutableAttributedString(string: "IMPORTANCE")
         //importanceString.addAttribute(NSKernAttributeName, value: 1.3, range: NSRange(location: 0, length: importanceString.length))
-        importanceStringLabel.string = importanceString
-        importanceStringLabel.font = UIFont(name: "SFUIDisplay-Semibold", size: 15)
-        importanceStringLabel.foregroundColor = UIColor.black.cgColor
+        //importanceStringLabel.string = importanceString
+        //importanceStringLabel.font = UIFont(name: "SFUIDisplay-Semibold", size: 15)
+        //importanceStringLabel.foregroundColor = UIColor.black.cgColor
         //importanceStringLabel.anchorPoint = CGPoint(x: 20, y: bounds.height/2)
         //importanceStringLabel.transform = CATransform3DMakeRotation(CGFloat.pi/2, 0, 0, 0)
-        importanceStringLabel.draw(in: UIGraphicsGetCurrentContext()!)
+        //importanceStringLabel.draw(in: UIGraphicsGetCurrentContext()!)
         //UIGraphicsGetCurrentContext()!.
             //CGAffineTransform(rotationAngle: CGFloat.pi/2)
         

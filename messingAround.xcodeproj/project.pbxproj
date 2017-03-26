@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E026BCD51E880D0000B18937 /* UILabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026BCD41E880D0000B18937 /* UILabelView.swift */; };
 		E04E80C91E796C0300B757E7 /* taskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E80C81E796C0300B757E7 /* taskListViewController.swift */; };
 		E04E80CB1E796D2A00B757E7 /* taskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E04E80CA1E796D2A00B757E7 /* taskList.swift */; };
 		F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F418A5351E19B8DE00FA8B98 /* AxisView.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E026BCD41E880D0000B18937 /* UILabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelView.swift; sourceTree = "<group>"; };
 		E04E80C81E796C0300B757E7 /* taskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taskListViewController.swift; sourceTree = "<group>"; };
 		E04E80CA1E796D2A00B757E7 /* taskList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = taskList.swift; sourceTree = "<group>"; };
 		F418A5351E19B8DE00FA8B98 /* AxisView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AxisView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				F434B05F1E4EE36200475B7E /* importanceLabelView.swift */,
 				F418A5351E19B8DE00FA8B98 /* AxisView.swift */,
 				F41C15D31E76FF3C0071927A /* TaskView.swift */,
+				E026BCD41E880D0000B18937 /* UILabelView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				F43A8E4C1E0B341C0065B6D0 /* task.swift in Sources */,
 				E04E80CB1E796D2A00B757E7 /* taskList.swift in Sources */,
 				E04E80C91E796C0300B757E7 /* taskListViewController.swift in Sources */,
+				E026BCD51E880D0000B18937 /* UILabelView.swift in Sources */,
 				F43A8E3A1E0B337F0065B6D0 /* AppDelegate.swift in Sources */,
 				F41C15D41E76FF3C0071927A /* TaskView.swift in Sources */,
 			);
