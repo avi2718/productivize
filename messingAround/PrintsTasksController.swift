@@ -18,7 +18,7 @@ class PrintsTasksController: UIViewController {
         
         var currentLength = TimeInterval(0)
         
-        var theString = ""
+        var theString = "Task List \n"
         
         var taskIndex = 1
         for task in Task.allTasks where (currentLength + task.length) <= goalLength {
