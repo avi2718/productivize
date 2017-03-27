@@ -24,6 +24,7 @@
 		F43A8E411E0B337F0065B6D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F43A8E401E0B337F0065B6D0 /* Assets.xcassets */; };
 		F43A8E4C1E0B341C0065B6D0 /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E4B1E0B341C0065B6D0 /* task.swift */; };
 		F43A8E501E0B3AF90065B6D0 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43A8E4F1E0B3AF90065B6D0 /* GridViewController.swift */; };
+		F44D4A6B1E88CF6E007EDC58 /* PrintsTasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44D4A6A1E88CF6E007EDC58 /* PrintsTasksController.swift */; };
 		F46FA1A31E66FF7200503493 /* list.png in Resources */ = {isa = PBXBuildFile; fileRef = F46FA1A21E66FF7200503493 /* list.png */; };
 		F46FA1A51E67010100503493 /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46FA1A41E67010100503493 /* NewTaskViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,7 @@
 		F43A8E451E0B337F0065B6D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F43A8E4B1E0B341C0065B6D0 /* task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 		F43A8E4F1E0B3AF90065B6D0 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GridViewController.swift; path = ../GridViewController.swift; sourceTree = "<group>"; };
+		F44D4A6A1E88CF6E007EDC58 /* PrintsTasksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintsTasksController.swift; sourceTree = "<group>"; };
 		F46FA1A21E66FF7200503493 /* list.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = list.png; sourceTree = "<group>"; };
 		F46FA1A41E67010100503493 /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 				F43A8E3B1E0B337F0065B6D0 /* ViewController.swift */,
 				E04E80C81E796C0300B757E7 /* taskListViewController.swift */,
 				F46FA1A41E67010100503493 /* NewTaskViewController.swift */,
+				F44D4A6A1E88CF6E007EDC58 /* PrintsTasksController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 				F434B0601E4EE36200475B7E /* importanceLabelView.swift in Sources */,
 				F418A5361E19B8DE00FA8B98 /* AxisView.swift in Sources */,
 				F43A8E3C1E0B337F0065B6D0 /* ViewController.swift in Sources */,
+				F44D4A6B1E88CF6E007EDC58 /* PrintsTasksController.swift in Sources */,
 				F43A8E4C1E0B341C0065B6D0 /* task.swift in Sources */,
 				E04E80CB1E796D2A00B757E7 /* taskList.swift in Sources */,
 				E04E80C91E796C0300B757E7 /* taskListViewController.swift in Sources */,

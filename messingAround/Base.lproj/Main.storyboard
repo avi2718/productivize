@@ -84,13 +84,13 @@
                                         <rect key="frame" x="0.0" y="39" width="288" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Due Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Sa-Px-yUn">
-                                                <rect key="frame" x="0.0" y="0.0" width="72" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="71.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9b6-mU-waH">
-                                                <rect key="frame" x="80" y="0.0" width="208" height="30"/>
+                                                <rect key="frame" x="79.5" y="0.0" width="208.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -106,13 +106,13 @@
                                         <rect key="frame" x="0.0" y="78" width="288" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqZ-qQ-RZB">
-                                                <rect key="frame" x="0.0" y="0.0" width="71" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="70.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etK-op-gK1">
-                                                <rect key="frame" x="79" y="0.0" width="209" height="30"/>
+                                                <rect key="frame" x="78.5" y="0.0" width="209.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -127,13 +127,13 @@
                                         <rect key="frame" x="0.0" y="117" width="288" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Task Length" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pqf-ny-poz">
-                                                <rect key="frame" x="0.0" y="0.0" width="94" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="93.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2xO-c7-dZQ">
-                                                <rect key="frame" x="102" y="0.0" width="186" height="30"/>
+                                                <rect key="frame" x="101.5" y="0.0" width="186.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -176,13 +176,13 @@
                                         <rect key="frame" x="0.0" y="234" width="288" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Time Left" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bm4-7S-Cbv">
-                                                <rect key="frame" x="0.0" y="0.0" width="73" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="72.5" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BTH-uF-lRs">
-                                                <rect key="frame" x="81" y="0.0" width="207" height="30"/>
+                                                <rect key="frame" x="80.5" y="0.0" width="207.5" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -224,7 +224,7 @@
         <!--List-->
         <scene sceneID="0lK-r0-m62">
             <objects>
-                <viewController id="ShE-H6-TIi" customClass="taskListViewController" customModule="messingAround" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ShE-H6-TIi" customClass="TaskTableViewController2" customModule="messingAround" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hMi-lV-7fP"/>
                         <viewControllerLayoutGuide type="bottom" id="rXN-26-gvd"/>
@@ -285,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3na-tD-ScT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1076.25" y="802.81690140845069"/>
+            <point key="canvasLocation" x="2071.875" y="813.38028169014081"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Aem-Ic-tws">
@@ -300,28 +300,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="unT-T4-7pm">
-                                <rect key="frame" x="16" y="137" width="288" height="294"/>
+                                <rect key="frame" x="16" y="138" width="288" height="292.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long do you have?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cID-wR-suv">
-                                        <rect key="frame" x="56" y="0.0" width="177" height="21"/>
+                                        <rect key="frame" x="55.5" y="0.0" width="177" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="ytp-Ch-RV3">
-                                        <rect key="frame" x="0.0" y="26" width="288" height="216"/>
+                                        <rect key="frame" x="0.0" y="25.5" width="288" height="216"/>
                                         <date key="date" timeIntervalSinceReferenceDate="508185823.43719">
                                             <!--2017-02-07 18:43:43 +0000-->
                                         </date>
                                     </datePicker>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How tired are you? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MIO-0N-kuY">
-                                        <rect key="frame" x="71" y="247" width="147" height="21"/>
+                                        <rect key="frame" x="70.5" y="246.5" width="147" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Will you have more time today? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZCu-4q-0hx">
-                                        <rect key="frame" x="23" y="273" width="242" height="21"/>
+                                        <rect key="frame" x="23" y="272" width="242" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -352,7 +352,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0sO-3Q-q3t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2292" y="802.848575712144"/>
+            <point key="canvasLocation" x="3288.75" y="802.81690140845069"/>
         </scene>
         <!--Profile-->
         <scene sceneID="Dk1-bE-abK">
@@ -371,7 +371,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Y0-1d-hvy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1078" y="1459"/>
+            <point key="canvasLocation" x="2073.75" y="1458.8028169014085"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="SFq-bQ-Nz8">
@@ -385,13 +385,66 @@
                     </tabBar>
                     <connections>
                         <segue destination="Wf0-9d-MyN" kind="relationship" relationship="viewControllers" id="36K-69-Afg"/>
-                        <segue destination="ShE-H6-TIi" kind="relationship" relationship="viewControllers" id="b7m-MK-Lpm"/>
                         <segue destination="8Z0-wt-Uxj" kind="relationship" relationship="viewControllers" id="C5Z-Io-YJj"/>
+                        <segue destination="Kag-19-Fyk" kind="relationship" relationship="viewControllers" id="2IL-hM-677"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HsD-Ig-41q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+        <!--Print-->
+        <scene sceneID="cQz-YE-BMW">
+            <objects>
+                <viewController id="Kag-19-Fyk" customClass="PrintsTasksController" customModule="messingAround" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bVq-0o-fBM"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZLz-gb-veQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8wd-mO-9Bf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How long do you have? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elU-Av-E3b">
+                                <rect key="frame" x="69" y="50" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="7bs-as-Fc0">
+                                <rect key="frame" x="0.0" y="79" width="320" height="216"/>
+                                <date key="date" timeIntervalSinceReferenceDate="512282086.36317301">
+                                    <!--2017-03-27 04:34:46 +0000-->
+                                </date>
+                            </datePicker>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vES-YB-PGG">
+                                <rect key="frame" x="110" y="345" width="101" height="30"/>
+                                <state key="normal" title="Print Task List!"/>
+                                <connections>
+                                    <action selector="printButtonPushed:" destination="Kag-19-Fyk" eventType="primaryActionTriggered" id="1w2-aG-6ty"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="elU-Av-E3b" firstAttribute="centerX" secondItem="8wd-mO-9Bf" secondAttribute="centerX" id="7Yw-Zq-LUA"/>
+                            <constraint firstItem="7bs-as-Fc0" firstAttribute="top" secondItem="elU-Av-E3b" secondAttribute="bottom" constant="8" id="GC5-LC-kFw"/>
+                            <constraint firstItem="vES-YB-PGG" firstAttribute="centerX" secondItem="8wd-mO-9Bf" secondAttribute="centerX" id="JoD-Kf-8By"/>
+                            <constraint firstItem="elU-Av-E3b" firstAttribute="centerX" secondItem="8wd-mO-9Bf" secondAttribute="centerX" id="PZ8-v3-QWD"/>
+                            <constraint firstItem="elU-Av-E3b" firstAttribute="top" secondItem="bVq-0o-fBM" secondAttribute="bottom" constant="30" id="RU3-Xn-QQg"/>
+                            <constraint firstItem="vES-YB-PGG" firstAttribute="top" secondItem="7bs-as-Fc0" secondAttribute="bottom" constant="50" id="hUk-Ha-bP0"/>
+                            <constraint firstItem="7bs-as-Fc0" firstAttribute="centerX" secondItem="8wd-mO-9Bf" secondAttribute="centerX" id="o9n-oB-rOO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Print" id="Sey-P4-Fmb"/>
+                    <connections>
+                        <outlet property="printButton" destination="vES-YB-PGG" id="aaA-ya-MUq"/>
+                        <outlet property="time" destination="7bs-as-Fc0" id="mKk-XR-1sw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JTd-Q3-ZnO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="994"/>
         </scene>
         <!--Grid-->
         <scene sceneID="vaQ-l4-jHv">
@@ -410,7 +463,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ntr-uL-DNO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1074.375" y="138.38028169014083"/>
+            <point key="canvasLocation" x="1091" y="36"/>
         </scene>
     </scenes>
     <resources>

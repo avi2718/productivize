@@ -21,7 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let taskListController = window!.rootViewController as! taskListViewController
         taskListController.taskList = taskList*/
-        
         return true
     }
 

@@ -10,20 +10,20 @@ import UIKit
 
 class taskListViewController: UITableViewController {
     
-    var taskList: TaskList!
+    var dataSource = Task.allTasks
     
     func getTasks() {
         //needs tasks from grid....
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return taskList.allTasks.count
+        return Task.allTasks.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
         
-        let task = taskList.allTasks[indexPath.row]
+        let task = Task.allTasks[indexPath.row]
         
         cell.textLabel?.text = task.name
         cell.detailTextLabel?.text = "\(task.dueDate)"

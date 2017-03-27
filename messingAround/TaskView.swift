@@ -21,48 +21,49 @@ class TaskView { //: UIImageView {
         self.imageView = UIImageView(image: image)
         self.urgency = urgency
         self.importance = importance
-        //super.init(image: image, urgency: urgency, importance: importance)
-        /*switch task.category {
-        case "Work": imageView = UIImageView(image: UIImage(named: "redCircle.png"))
-        case "Wellness": imageView = UIImageView(image: UIImage(named: "blueCircle.png"))
-        default: imageView = UIImageView(image: UIImage(named: "redCircle.png"))
-        }
-        self.isUserInteractionEnabled = true   //< w00000t!!!1
-        
-        //#selector(self.handlePan(_:))
-        
-       let hp = UIPanGestureRecognizer(target: self, action: "handlePan")
-        addGestureRecognizer(hp)
-        
-        
     }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-    func handlePan(_ sender: UIPanGestureRecognizer!) {
-        print("is it even!")
-        if sender.state == UIGestureRecognizerState.began {
-            let locationInView = sender.location(in: superview)
-            dragStartPositionRelativeToCenter = CGPoint(x: locationInView.x - center.x, y: locationInView.y - center.y)
-            
-            return
-        }
-        
-        if sender.state == UIGestureRecognizerState.ended {
-            dragStartPositionRelativeToCenter = nil
-            
-            return
-        }
-        
-        let locationInView = sender.location(in: superview)
-        
-        UIView.animate(withDuration: 0.1) {
-            self.center = CGPoint(x: locationInView.x - self.dragStartPositionRelativeToCenter!.x,
-                                  y: locationInView.y - self.dragStartPositionRelativeToCenter!.y)
-        }
-    }*/
+    //super.init(image: image, urgency: urgency, importance: importance)
+    /*switch task.category {
+     case "Work": imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+     case "Wellness": imageView = UIImageView(image: UIImage(named: "blueCircle.png"))
+     default: imageView = UIImageView(image: UIImage(named: "redCircle.png"))
+     }
+     self.isUserInteractionEnabled = true   //< w00000t!!!1
+     
+     //#selector(self.handlePan(_:))
+     
+     let hp = UIPanGestureRecognizer(target: self, action: "handlePan")
+     addGestureRecognizer(hp)
+     
+     
+     }
+     
+     required init?(coder aDecoder: NSCoder) {
+     fatalError("init(coder:) has not been implemented")
+     }
+     
+     func handlePan(_ sender: UIPanGestureRecognizer!) {
+     print("is it even!")
+     if sender.state == UIGestureRecognizerState.began {
+     let locationInView = sender.location(in: superview)
+     dragStartPositionRelativeToCenter = CGPoint(x: locationInView.x - center.x, y: locationInView.y - center.y)
+     
+     return
+     }
+     
+     if sender.state == UIGestureRecognizerState.ended {
+     dragStartPositionRelativeToCenter = nil
+     
+     return
+     }
+     
+     let locationInView = sender.location(in: superview)
+     
+     UIView.animate(withDuration: 0.1) {
+     self.center = CGPoint(x: locationInView.x - self.dragStartPositionRelativeToCenter!.x,
+     y: locationInView.y - self.dragStartPositionRelativeToCenter!.y)
+     }
+     }*/
     
     func makeX(_ parentView: UIView) -> Int{
         //urgency
@@ -74,6 +75,7 @@ class TaskView { //: UIImageView {
         //importance
         return Int(parentView.bounds.height / 3 * CGFloat(importance))
     }
+    
     func draw(_ parentView: UIView) {
         
         let xCoor = makeX(parentView)
