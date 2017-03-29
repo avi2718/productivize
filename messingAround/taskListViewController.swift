@@ -10,7 +10,8 @@ import UIKit
 
 class taskListViewController: UITableViewController {
     
-    var dataSource = Task.allTasks
+    var taskList: TaskList!
+    
     
     func getTasks() {
         //needs tasks from grid....
@@ -21,12 +22,13 @@ class taskListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "UITableViewCell", for: indexPath)
+        let cell = UITableViewCell(style: .value1, reuseIdentifier: "UITableViewCell")
         
-        let task = Task.allTasks[indexPath.row]
+        let taskName = Array(taskList.selectedTasks.keys)[indexPath.row]
+        let taskLength = taskList.selectedTasks[taskName]
         
-        cell.textLabel?.text = task.name
-        cell.detailTextLabel?.text = "\(task.dueDate)"
+        cell.textLabel?.text = taskName
+        cell.detailTextLabel?.text = taskLength
         
         return cell
     }
@@ -39,5 +41,7 @@ class taskListViewController: UITableViewController {
         let insets = UIEdgeInsets(top: statusBarHeight, left: 0, bottom: 0, right: 0)
         tableView.contentInset = insets
         tableView.scrollIndicatorInsets = insets
+        
+        taskList.update()
     }
 }

@@ -21,6 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let taskListController = window!.rootViewController as! taskListViewController
         taskListController.taskList = taskList*/
+        
+        var tabBarController = window!.rootViewController as! UITabBarController
+        var destinationViewController = tabBarController.viewControllers?[3] as! taskListViewController // or whatever tab index you're trying to access
+        destinationViewController.taskList = TaskList(time: TimeInterval(3000))
         return true
     }
 

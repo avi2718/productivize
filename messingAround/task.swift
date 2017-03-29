@@ -31,6 +31,7 @@ struct Task: CustomStringConvertible{ //, Hashable {
     /*var hashValue: Int {
         return 100000 * urgency + 100 * importance
     }*/
+    
     func makeUrgency() -> Float {
         let interval = Int(length)
         let minutes : Float = Float((interval / 60) % 60)
