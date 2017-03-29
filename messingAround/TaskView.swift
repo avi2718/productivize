@@ -67,7 +67,6 @@ class TaskView { //: UIImageView {
     
     func makeX(_ parentView: UIView) -> Int{
         //urgency
-        print("\(CGFloat(urgency))")
         return Int(parentView.bounds.width / 2400 * CGFloat(urgency)) + 45
     }
     
@@ -80,7 +79,6 @@ class TaskView { //: UIImageView {
         
         let xCoor = makeX(parentView)
         let yCoor = makeY(parentView)
-        print("\(xCoor) \(yCoor)")
         imageView.frame = CGRect(x: xCoor, y: yCoor, width: 15, height: 15)
         parentView.addSubview(imageView)
     }

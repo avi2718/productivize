@@ -63,7 +63,7 @@ class AxisView: UIView {
         //if new task (how to check for that..?)
         //-->drop in the middle 
         //user drags to desired spot
-        var urg : Float = 0.00
+        var urg : Float = 0
         var imp = 0
         tasks = Task.allTasks
         if tasks != nil {

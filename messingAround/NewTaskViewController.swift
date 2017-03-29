@@ -28,7 +28,6 @@ class NewTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     var axis = AxisView()
     
     override func viewDidLoad() {
-        print("hi)")
         self.navigationItem.title = "New Task"
         
         let datePicker  : UIDatePicker = UIDatePicker()
@@ -104,12 +103,12 @@ class NewTaskViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBAction func newTaskAction(_ sender: UIButton) {
         let _ = self.navigationController?.popViewController(animated: true)
         let myTask = Task(name: nameField.text!, dueDate: dueDate, category: category, length: taskLength, minChunk: minChunk)
-        print(myTask.name)
+        //print(myTask.name)
         Task.allTasks.append(myTask)
         //axis.tasks.append(myTask)
-        for task in Task.allTasks {
+        /*for task in Task.allTasks {
             print(task.name)
-        }
+        }*/
         axis.setNeedsDisplay()
     }
 

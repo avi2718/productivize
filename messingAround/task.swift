@@ -26,18 +26,16 @@ struct Task: CustomStringConvertible{ //, Hashable {
         self.category = category
         self.length = length
         self.minChunk = minChunk
-    }
+     }
     
     /*var hashValue: Int {
         return 100000 * urgency + 100 * importance
     }*/
-    
     func makeUrgency() -> Float {
         let interval = Int(length)
         let minutes : Float = Float((interval / 60) % 60)
         let hours = Float(interval / 3600 * 100)
         let total = hours + minutes
-        print("\(Float((interval / 60) % 60)) \(minutes)" )
         return total
     }
     
